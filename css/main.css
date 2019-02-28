@@ -96,75 +96,92 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #211338;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Mukta', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  color: #A8A1B3;
 }
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  background-color: #301C52;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+header {
+  font-size: 3em;
+  height: 125px;
+}
+
+footer {
+    height: 100px;
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
+  background-color: #A8A1B3;
+  color: #211338;
+  height: 200px;
   width: 100%;
+  font-size: 2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
-header,
-footer,
-main {
-  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+span {
+    font-family: 'Slabo 27px', serif;
+    margin: .1em .75em;
 }
 
 #div-1,
 #div-2,
 #div-3 {
+  color: #A8A1B3;
+  line-height: 1.5em;
+  font-size: 1em;
+  height: 250px;
+  width: 30%;
+  padding: .2em;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.25em;
-  height: auto;
+
 }
 
 .wrapper span {
-  font-family: 'Lora', sans-serif;
-  font-size: 1.3em;
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5em;
 }
 
 .flex-container {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 flex-flow: row wrap;
-justify-content:space-between;
 }
 
 .flex-items {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
-  color: #fff;
+  color: #A8A1B3;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.2em;
+  background-color: #211338;
   width: 30%;
-  height: 200px;
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
